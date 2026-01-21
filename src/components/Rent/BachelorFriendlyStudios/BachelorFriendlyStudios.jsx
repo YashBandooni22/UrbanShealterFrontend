@@ -1,0 +1,14 @@
+import React from 'react'
+import PremiumSectionHeader from '../PremiumFurnishedApartments/PremiumSectionHeader'
+import PropertyCardList from '../PremiumFurnishedApartments/PropertyCardList'
+
+const LuxuryPenthouses = () => {
+  return (
+    <section className="px-4 md:px-8 lg:px-8 py-12">
+      <PremiumSectionHeader />
+      <PropertyCardList />
+    </section>
+  )
+}
+
+export default LuxuryPenthouses

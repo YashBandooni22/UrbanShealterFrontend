@@ -40,6 +40,7 @@ import LiveBoard from "./components/CoWorker/LiveBoard/LiveBoard";
 import CoworkerSettings from "./components/CoWorker/DashBoard/CoworkerSettings";
 import CoworkerReports from "./components/CoWorker/DashBoard/CoworkerReports";
 import MyAccount from "./components/CoWorker/DashBoard/MyAccount";
+import RentProperty from "./components/Rent/RentProperty";
 
 
 
@@ -56,6 +57,7 @@ const App = () => {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/map-view" element={<MapView />} />
           <Route path="/rent" element={<Rent />} />
+          <Route path="/rent/:id" element={<RentProperty />} />
           <Route path="/buy" element={<Buy />} />
           <Route path="/list-property" element={<ListProperty />} />
           <Route path="/complete-story" element={<CompleteStory />} />
